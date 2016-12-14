@@ -90,7 +90,7 @@ THIS SECTION IS WHERE YOU WILL ADD YOUR CODE
 
 		// the intro variable includes the options for your bot's response
     // the options are placed in an array: http://www.w3schools.com/js/js_arrays.asp
-		var intro = ['Hey there!', 'Hi!', 'Hello!', 'Hullo!']
+		var intro = ['Heyy!', 'Hi!', 'Hello!', '(waving hand sign)']
 
     // the intro_msg variable is a randomly selected response from the intro array
     // keep Math.floor(Math.random()*intro.length) and just change the name of the array when doing this yourself, ie the beginning intro[...] part
@@ -101,7 +101,7 @@ THIS SECTION IS WHERE YOU WILL ADD YOUR CODE
 
       // to change the bot's response, modify the code after the text: label
       // intro_msg is the random response and the text in quotes is a plain string (http://www.w3schools.com/jsref/jsref_obj_string.asp)
-      text: intro_msg + " insert your introduction response for your bot here"
+      text: intro_msg + "Ready to start planning your trip?"
 
 				});
 		}
